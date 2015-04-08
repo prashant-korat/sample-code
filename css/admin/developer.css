@@ -1,0 +1,72 @@
+.header_tr{
+	background-color:#333;
+	color:#FFF;
+	font-variant:small-caps;
+}
+.header_tr th{
+	border-right:1px solid #999;
+	cursor:move;
+}
+.header_tr .first-last{
+	cursor:default 
+}
+.listing_table tr td a img{
+	height:18px;
+	width:18px;
+	}
+.listing_table .search_input{
+	padding: 6px;
+	font-size: 13px;
+	width:260px;
+	background: white url('../../images/admin/bg-form-field.gif') top left repeat-x;
+	border: 1px solid #D5D5D5;
+	color: #333;
+	webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+/*************** Override Pagination ***************/
+.pagination {
+                text-align: right;
+                padding: 20px 0 5px 0;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                }
+.pagination a {
+                margin: 0 5px 0 0;
+                padding: 3px 6px;
+				border: 1px solid #ddd;
+                }
+
+.pagination a.active {
+                background: #469400 url('../../images/admin/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                }
+				
+.pagination a.active:hover {
+				color:white;
+                }
+.tab-content{
+	position:relative;
+}
+.listingPreloader {
+	width:100%;
+	height:100%;
+	background:url(../../images/admin/preloader.gif) no-repeat center center;
+	left:0;
+	top:0;
+	position:absolute;
+}
+.pre_loader{
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;	width:100%;
+	display:none;
+}
+.qtip .qtip-content{
+   padding: 10px;
+   overflow: hidden;
+}   
+.qtip .qtip-content .qtip-title, .qtip-cream .qtip-content .qtip-title{background-color: #F0DE7D;}
+

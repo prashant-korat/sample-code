@@ -1,0 +1,2 @@
+<li><a href="javascript:void(0)" rel="#tab1" class="default-tab"><?php echo singular(humanize($this->router->class)); ?> - List</a></li> <!-- href must be unique and match the id of target div -->
+<li><a href="javascript:void(0)" rel="#tab2" style="display:none">Add / Edit</a></li>
